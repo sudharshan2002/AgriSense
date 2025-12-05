@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-healthy: #16C47F;
+    --color-medium: #F2C94C;
+    --color-high: #EB5757;
+    --color-primary: #2F80ED;
+    --color-bg: #FFFFFF;
+    --color-bg-light: #F4F6F8;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--color-bg-light);
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  button {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
